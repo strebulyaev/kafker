@@ -4,20 +4,19 @@ A simple kafka CLI client.
 
 ## Usage
 
+```bash
 kafker <command> [options]
+```
 
 ## Commands
-
 - `list` - List all topics in the Kafka cluster
 - `listen` - Listen messages from specified topics
 
 ## Options
-
 - `-h, --host` - The host to connect to (default: 127.0.0.1:9092)
 - `-t, --topic` - The topic to consume from
 
-## Examples
-
+## Example
 ```bash
 kafker list -h 127.0.0.1:9092
 kafker listen -h 127.0.0.1:9092 -t topic1 -t topic2
