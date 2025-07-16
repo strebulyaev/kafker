@@ -1,0 +1,13 @@
+[package]
+name = "kafker"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+kafka = "0.10.0"
+openssl = { version = "0.10", features = ["vendored"] }
+openssl-probe = "0.1.5"
+humantime = "2.2.0"
+pico-args = "0.5.0"
